@@ -14,6 +14,10 @@
 		CCBDBDEE279880D600DD1FE0 /* ParkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDBDED279880D600DD1FE0 /* ParkerTests.swift */; };
 		CCBDBDF8279880D600DD1FE0 /* ParkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDBDF7279880D600DD1FE0 /* ParkerUITests.swift */; };
 		CCBDBDFA279880D600DD1FE0 /* ParkerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDBDF9279880D600DD1FE0 /* ParkerUITestsLaunchTests.swift */; };
+		CCBDBE072798C32200DD1FE0 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDBE062798C32200DD1FE0 /* CheckBox.swift */; };
+		CCBDBE092798CC0A00DD1FE0 /* KeyActivationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDBE082798CC0A00DD1FE0 /* KeyActivationPage.swift */; };
+		CCBDBE0B2798CC7C00DD1FE0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDBE0A2798CC7C00DD1FE0 /* Utilities.swift */; };
+		CCBDBE0F2798D23600DD1FE0 /* AccessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDBE0E2798D23600DD1FE0 /* AccessPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		CCBDBDF3279880D600DD1FE0 /* ParkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBDBDF7279880D600DD1FE0 /* ParkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkerUITests.swift; sourceTree = "<group>"; };
 		CCBDBDF9279880D600DD1FE0 /* ParkerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCBDBE062798C32200DD1FE0 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		CCBDBE082798CC0A00DD1FE0 /* KeyActivationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyActivationPage.swift; sourceTree = "<group>"; };
+		CCBDBE0A2798CC7C00DD1FE0 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		CCBDBE0E2798D23600DD1FE0 /* AccessPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,8 @@
 		CCBDBDDB279880D300DD1FE0 /* Parker */ = {
 			isa = PBXGroup;
 			children = (
+				CCBDBE0D2798CCBC00DD1FE0 /* CustomStyles */,
+				CCBDBE0C2798CC9500DD1FE0 /* Pages */,
 				CCBDBDDC279880D300DD1FE0 /* ParkerApp.swift */,
 				CCBDBDDE279880D300DD1FE0 /* ContentView.swift */,
 				CCBDBDE0279880D600DD1FE0 /* Assets.xcassets */,
@@ -125,6 +135,24 @@
 				CCBDBDF9279880D600DD1FE0 /* ParkerUITestsLaunchTests.swift */,
 			);
 			path = ParkerUITests;
+			sourceTree = "<group>";
+		};
+		CCBDBE0C2798CC9500DD1FE0 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDBE082798CC0A00DD1FE0 /* KeyActivationPage.swift */,
+				CCBDBE0E2798D23600DD1FE0 /* AccessPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		CCBDBE0D2798CCBC00DD1FE0 /* CustomStyles */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDBE062798C32200DD1FE0 /* CheckBox.swift */,
+				CCBDBE0A2798CC7C00DD1FE0 /* Utilities.swift */,
+			);
+			path = CustomStyles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBDBE0F2798D23600DD1FE0 /* AccessPage.swift in Sources */,
 				CCBDBDDF279880D300DD1FE0 /* ContentView.swift in Sources */,
+				CCBDBE0B2798CC7C00DD1FE0 /* Utilities.swift in Sources */,
 				CCBDBDDD279880D300DD1FE0 /* ParkerApp.swift in Sources */,
+				CCBDBE092798CC0A00DD1FE0 /* KeyActivationPage.swift in Sources */,
+				CCBDBE072798C32200DD1FE0 /* CheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
